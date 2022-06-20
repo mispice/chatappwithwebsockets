@@ -1,0 +1,24 @@
+head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 380;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 380;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 380;
+}
+
+/* define variables that can be used in other places in the project */
+/* can be referenced as var(--main-background-color) and so on */
+:root{
+    --main-background-color: #f2f2f2;
+    --dark-backgournd-color: #a2a2a2;
+    --secondary-text-color: #808080;
+    --light-primary-text-color: #0080ff;
+}
